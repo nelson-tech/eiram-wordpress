@@ -1,5 +1,5 @@
 {
-  "name": "nelson.tech/eiram",
+  "name": "nelson-tech/eiram",
   "keywords": [
     "WordPress",
     "Composer",
@@ -9,6 +9,7 @@
   "authors": [
     {
       "name": "Michael Nelson",
+      "email": "michael@nelson.tech",
       "homepage": "https://nelson.tech"
     }
   ],
@@ -29,6 +30,10 @@
     {
       "type": "github",
       "url": "https://github.com/funkhaus/wp-graphql-cors.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nelson-tech/wp-headless-child.git"
     }
   ],
   "config": {
@@ -42,13 +47,15 @@
   },
   "require": {
     "php": ">=8.1",
+    "axepress/wp-graphql-rank-math": "^0.0.8",
     "composer/installers": "^2.2",
     "deliciousbrains-plugin/wp-offload-media": "^3.1",
     "funkhaus/wp-graphql-cors": "^2.1",
     "johnpbloch/wordpress": "6.*",
+    "nelson-tech/headless-child": "dev-main",
     "oscarotero/env": "^2.1",
     "vlucas/phpdotenv": "^5.3",
-    "wp-graphql/wp-graphql": "^1.13",
+    "wp-graphql/wp-graphql": "1.13.8",
     "wp-graphql/wp-graphql-acf": "^0.6.1",
     "wp-graphql/wp-graphql-jwt-authentication": "^0.6.0",
     "wp-graphql/wp-graphql-smart-cache": "^1.0",
@@ -58,13 +65,13 @@
     "wpackagist-plugin/codepress-admin-columns": "^4.5",
     "wpackagist-plugin/custom-post-type-ui": "^1.13",
     "wpackagist-plugin/fluent-smtp": "^2.2",
-    "wpackagist-plugin/limit-login-attempts-reloaded": "*",
     "wpackagist-plugin/post-types-order": "1.9.9.2",
+    "wpackagist-plugin/seo-by-rank-math": "^1.0",
     "wpackagist-plugin/spinupwp": "*",
     "wpackagist-plugin/taxonomy-terms-order": "^1.7",
     "wpackagist-plugin/woocommerce": "^7.3",
-    "wpackagist-plugin/woocommerce-gateway-stripe": "^7.0",
-    "wpackagist-theme/storefront": "^4.2",
+    "wpackagist-plugin/woocommerce-gateway-stripe": "^7.1",
+    "wpackagist-theme/twentytwentythree": "^1.0",
     "wpengine/advanced-custom-fields-pro": "^6.0"
   },
   "extra": {
