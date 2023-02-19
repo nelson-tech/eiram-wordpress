@@ -69,7 +69,7 @@
     "wpackagist-plugin/seo-by-rank-math": "^1.0",
     "wpackagist-plugin/spinupwp": "*",
     "wpackagist-plugin/taxonomy-terms-order": "^1.7",
-    "wpackagist-plugin/woocommerce": "^7.3",
+    "wpackagist-plugin/woocommerce": "^7.4",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^7.1",
     "wpackagist-theme/twentytwentythree": "^1.0",
     "wpengine/advanced-custom-fields-pro": "^6.0"
