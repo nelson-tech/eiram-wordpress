@@ -65,7 +65,7 @@
     "wpackagist-plugin/codepress-admin-columns": "^4.5",
     "wpackagist-plugin/custom-post-type-ui": "^1.13",
     "wpackagist-plugin/fluent-smtp": "^2.2",
-    "wpackagist-plugin/post-types-order": "1.9.9.2",
+    "wpackagist-plugin/post-types-order": "^2.0",
     "wpackagist-plugin/seo-by-rank-math": "^1.0",
     "wpackagist-plugin/spinupwp": "*",
     "wpackagist-plugin/taxonomy-terms-order": "^1.7",
